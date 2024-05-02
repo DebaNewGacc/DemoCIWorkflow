@@ -22,10 +22,10 @@ on:
         default: 'https://functionappsars.azurewebsites.net'
         
        # This is the path of your Function app in Git.
-      GIT_FunctionApp_PATH:
-        description: 'Relative path for Function'
-        required: true
-        default: '/FunctionApp/DemoSample/'
+      #GIT_FunctionApp_PATH:
+       # description: 'Relative path for Function'
+        #required: true
+       # default: '/FunctionApp/DemoSample/'
 
 env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.' # set this to the path to your web app project, defaults to the repository root
